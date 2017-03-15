@@ -11,7 +11,7 @@ echo MIKE_ENV_VAR $MIKE_ENV_VAR
 
 echo Trying to source the env.sh file...
 
-source /code/bin/env.sh
+source ./budget_proj/bin/env.sh
 
 echo DATABASE_PORT $DATABASE_PORT
 
