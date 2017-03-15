@@ -13,7 +13,7 @@ echo Trying to source the env.sh file...
 
 source ./budget_proj/bin/env.sh
 
-echo DATABASE_PORT $DATABASE_PORT
+echo DJANGO_SECRET_KEY-dummy $DJANGO_SECRET_KEY
 
 # Run all configured unit tests inside the Docker container
 docker-compose -f budget_proj/docker-compose.yml run budget-service python manage.py test
