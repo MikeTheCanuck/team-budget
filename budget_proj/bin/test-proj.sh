@@ -5,6 +5,7 @@
 
 echo  Running test_proj.sh...
 
+# Troubleshooting env var carry-forward
 echo DATABASE_PORT $DATABASE_PORT
 echo MIKE_ENV_VAR $MIKE_ENV_VAR
 

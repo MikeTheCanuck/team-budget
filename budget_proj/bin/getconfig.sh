@@ -32,3 +32,5 @@ fi
 # Load environment variables
 source $PROJ_SETTINGS_DIR/bin/$CONFIG_FILE
 echo DATABASE_PORT $DATABASE_PORT
+# Troubleshooting
+echo MIKE_ENV_VAR $MIKE_ENV_VAR
