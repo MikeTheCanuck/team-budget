@@ -5,7 +5,7 @@
 
 echo  Running test_proj.sh...
 
-# Troubleshooting env var carry-forward - former set with export, latter set with setenv
+# Troubleshooting env var carry-forward - no longer exported, just declared in env.sh
 echo DATABASE_PORT $DATABASE_PORT
 echo MIKE_ENV_VAR $MIKE_ENV_VAR
 
