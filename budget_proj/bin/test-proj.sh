@@ -13,8 +13,8 @@ echo MIKE_ENV_VAR $MIKE_ENV_VAR
 
 #source ./budget_proj/bin/env.sh
 
-echo Did the secret survive getting sourced by .travis.yml ?
-echo DJANGO_SECRET_KEY-dummy $DJANGO_SECRET_KEY
+echo Did the secret survive getting sourced by .travis.yml
+echo DJANGO_SECRET_KEY $DJANGO_SECRET_KEY
 
 #echo Setting key directly here to determine whether it is possible to ever pass the secret around as an env var...
 
